@@ -1,0 +1,120 @@
+/* main.css */
+
+/* body style */
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+/* top flex box */
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top > .topmenu {
+    display: grid;
+    margin-top: 5px;
+}
+
+.top > .topmenu .twoitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top > .topmenu .topmenuitem {
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    width: 90px;
+}
+
+.top > .topmenu .topmenuitem:hover {
+    letter-spacing: 2px;
+}
+
+/* serach icon */
+#search {
+    font-size: 0.8em;
+}
+
+.top > .topbutton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top > .topbutton > .topbuttonitem {
+    background-color: darkgrey;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid yellow;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 30px rgba(120, 120, 120, 0.4);
+}
+
+.top > .topbutton > .topbuttonitem:active {
+    box-shadow: none;
+}
+
+/* logo image */
+.top .logo img {
+    width: 150px;
+    height: 30px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.top .logo img:hover {
+    opacity: 1;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    /* gradient */
+    background: linear-gradient(to right, rgb(36, 36, 36), black);
+}
+
+.center>#image {
+    margin: 25px 40px 30px 0px;
+    width: 500px;
+    float: inline-end;
+}
+
+.botton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom>.bottommenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.bottom>.bottommenu>.bottommenuitem{
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+}
+
+/* text green */
+.igreen {
+    color: green;
+}
+
+/* text yellow */
+.iyellow {
+    color: yellow;
+}
